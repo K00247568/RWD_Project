@@ -1,0 +1,293 @@
+ @media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+
+ html {
+  margin: 0;
+  padding: 0;
+}
+
+img{ max-width: 100%; }
+
+ body {
+  width: 100%;
+height: flex;
+background: linear-gradient(rgba(167, 68, 68, 0.95) 0%, rgba(12, 10, 10, 0.89) 57.67%, rgba(167, 68, 68, 0.96) 84.1%, rgba(12, 10, 10, 0.89) 100%);
+border: 0px solid rgba(0, 0, 0, 0.9);
+background-repeat: no-repeat;
+margin: 0;
+
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+#Logo  img {
+  width: 100%;
+  height: auto;
+  display: inline-block;
+}
+
+#Logo .signin img {
+  position: relative;
+  top: -163px;
+  right: -1600px;
+}
+
+.navcol {
+  float: left;
+  padding: 5px;
+}
+
+.navbar {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#slideshow img {
+  width: 100%;
+  height: auto;
+}
+
+.WebColumn {
+  float: left;
+  padding: 10px;
+}
+
+.left {
+  width: 75%;
+}
+
+.right {
+  width: 25%;
+}
+
+.WebRow:after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+.left img {
+  width: 100%
+}
+
+.right {
+  margin-top: 10px;
+width: flex;
+height: auto;
+background: rgba(255, 255, 255, 0);
+border: 3px solid #fff;
+border-collapse: collapse;
+box-shadow: 0px 7px 6px #000;
+}
+
+.HomeHotTopic {
+    margin-top: 10px;
+width: flex;
+height: auto;
+background: rgba(255, 255, 255, 0);
+border: 3px solid #fff;
+border-collapse: collapse;
+box-shadow: 0px 7px 6px #000;
+}
+
+.HomeHotTopic p {
+font-family: "Tw Cen MT";
+font-weight: normal;
+font-size: 20px;
+text-align: center;
+color: #fff;
+}
+
+.HomeHotTopicImg {
+      margin-top: 10px;
+width: flex;
+height: auto;
+background: rgba(255, 255, 255, 0);
+border: 3px solid #fff;
+border-collapse: collapse;
+box-shadow: 0px 7px 6px #000;
+}
+
+footer {
+        margin-top: 10px;
+width: flex;
+height: auto;
+background: rgba(255, 255, 255, 0);
+border: 3px solid #fff;
+box-shadow: 0px 7px 6px #000;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  margin-left: 25px;
+  border-radius: 50%
+}
+
+.fa:hover {
+  opacity: 0.6;
+  }
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  margin-left: 750px;
+
+}
+
+  .fa-twitter {
+  background: #55ACEE;
+  color: white;
+
+}
+
+  .fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-reddit {
+  background: #ff5700;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container {
+  padding: 20px;
+  background: rgba(255, 255, 255, 0);
+  padding-top: 49px;
+border: 3px solid #fff;
+border-collapse: collapse;
+box-shadow: 0px 7px 6px #000;
+margin: 10px;
+}
+
+input[type=text], input[type=password], input[type=date], input[type=url], select {
+  width: 99%;
+  padding: 15px;
+  border-radius: 25px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.container label, h1, p {
+font-family: "Tw Cen MT";
+font-weight: normal;
+font-size: 20px;
+text-align: center;
+color: #fff;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 1px black;
+}
+
+
+
+.registerbtn {
+  border-radius: 25px;
+  padding: 16px 20px;
+  background-color: transparent;
+  margin: 8px 0;
+  border: 3px solid #fff;
+border-collapse: collapse;
+box-shadow: 0px 7px 6px #000;
+  cursor: pointer;
+  width: 100%;
+  font-family: "Tw Cen MT";
+font-weight: normal;
+font-size: 20px;
+text-align: center;
+color: #fff;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+a {
+  color: dodgerblue;
+}
+
+.signin {
+  text-align: center;
+}
+
+.articleslist {
+  width: 100%;
+  margin-top: 10px;
+height: auto;
+background: rgba(255, 255, 255, 0);
+border: 3px solid #fff;
+box-shadow: 0px 7px 6px #000;
+padding-left: 10px;
+padding-right: 10px;
+padding-bottom: 65px;
+}
+
+
+.articleslist img {
+  width: 25%;
+  height: 25%;
+  float: left;
+  padding-top: 10px;
+  padding-right: 6px;
+
+}
+
+.containerimg img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+  height: 10%
+}
+
+
+
+
+
+
+
+
+
+
+
+

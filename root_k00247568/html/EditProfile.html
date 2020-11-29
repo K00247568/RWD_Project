@@ -1,0 +1,122 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Web Dev Project - Chicken Ratatouille</title>
+      <link rel="stylesheet" type="text/css" href="../css/stylesheet.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+<!-- LOGO AND NAVIGATION BAR START !-->
+      <!-- Logo -->
+      <div id=Logo>
+        <img src="../studentImages\Logo_201.png" usemap="#signmap" alt="logo">
+
+        <map name="signmap">
+          <area shape="rect" coords="1621,1,1850,150" alt="signup" href="SignIn.html">
+        </map>  
+      </div>
+      <!-- Logo Ends -->
+
+      <!-- Navigation Bar -->
+
+      <div class="navbar">
+        <div class="navcol">
+          <a href="Index.html">
+    <img src="../studentImages\Home.png" alt="Home" style="padding-left: 27px;">
+  </a>
+         </div>
+        <div class="navcol">
+          <a href="AllNews.html">
+    <img src="../studentImages\News.png" alt="News" style="">
+  </a>
+        </div>
+
+        <div class="navcol">
+          <a href="FullArticle.html">
+    <img src="../studentImages\Hot_Topic.png" alt="HotTopic" style="">
+  </a>
+        </div>
+        <div class="navcol">
+          <a href="AboutUs.html">
+    <img src="../studentImages\About_Us.png" alt="AboutUs" style="">
+  </a>
+        </div>
+        <div class="navcol">
+          <a href="index.html">
+    <img src="../studentImages\Contact.png" alt="Contact" style="">
+  </a>
+        </div>
+        <div class="navcol">
+          <a href="https://paypal.me/ericdmx00?locale.x=en_US">
+    <img src="../studentImages\Support_Us.png" alt="Support_Us" style="">
+  </a>
+        </div>
+      </div>
+    
+      <!-- Navigation Bar Ends-->
+
+</head>
+
+<body>
+      <!-- Main Headings -->
+<form method="get" onsubmit="return checkPassword(this)">
+  <div class="container">
+      <div class="containerimg">
+    <img src="https://www.woolha.com/media/2020/03/eevee.png" alt="temlogo">
+    <br></br>
+
+
+      <center> <button type="submit" value="EditProfile.html" class="changeavatar">Change Avatar</button></center>
+      </div>
+<br></br>
+    <h1>Personal Information</h1>
+    <hr>
+
+    <label for="name"><b>Username</b></label>
+    <input type="text" placeholder="Your Name" name="name" id="name">
+
+    <label for="name"><b>Date of Birth</b></label>
+    <input type="date" placeholder="Birthday" name="BOD" id="BOD">
+
+    <label for="name"><b>Phone Number</b></label>
+    <input type="text" placeholder="Number here" name="phone" id="phone">
+
+    <label for="name"><b>Your Website</b></label>
+    <input type="url" placeholder="Your Http link here" name="web" id="web">
+
+        <h1>Security</h1>
+
+    <label for="password"><b>New Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw1" id="psw1" >
+
+        <label for="password"><b>Repeat New Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw2" id="psw2" >
+
+    <label for="email"><b>New Email</b></label>
+    <input type="text" placeholder="Enter New Email" name="email" id="email">
+
+    <hr>
+
+    <button type="submit" value="#" class="registerbtn">Save Changes</button>
+  </div>
+  
+</form>    
+
+<script src="../javascript/passwordcheck.js"></script>
+
+ </body>
+
+
+        <!-- Footer -->
+      <footer>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-google"></a>
+        <a href="#" class="fa fa-snapchat-ghost"></a>
+        <a href="#" class="fa fa-reddit"></a>
+      </footer>
+
+</body>
+</html>
